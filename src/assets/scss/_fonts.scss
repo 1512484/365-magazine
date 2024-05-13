@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Juana";
+    src: url("../fonts/Juana/JuanaThin.otf") format("truetype");
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../fonts/Juana/JuanaExtraLight.otf") format("truetype");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../fonts/Juana/JuanaLight.otf") format("truetype");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../fonts/Juana/JuanaRegular.otf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../fonts/Juana/JuanaMedium.otf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../fonts/Juana/JuanaSemibold.otf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../fonts/Juana/JuanaBold.otf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../fonts/Juana/JuanaBlack.otf") format("truetype");
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Real-Head-Pro-Light";
+    src: url("../fonts/Real-Head-Pro-Light/RealHeadProLight.otf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Times-New-Roman-PS-Italic";
+    src: url("../fonts/Times-New-Roman-PS-Italic/TimesNewRomanPSItalic.otf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+}
+
+.juana {
+    font-family: "Juana", sans-serif;
+}
+
+.real-head-pro-light {
+    font-family: "Real-Head-Pro-Light", sans-serif;
+}
+
+.times-new-roman-ps-italic {
+    font-family: "Times-New-Roman-PS-Italic", sans-serif;
+}

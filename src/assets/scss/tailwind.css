@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .section-card {
+        @apply sm:py-12 py-7 px-5 bg-white rounded-lg;
+    }
+    .article-tag {
+        @apply text-sm uppercase block w-[max-content] rounded-full border border-[currentColor] p-[2px_12px];
+    }
+}
