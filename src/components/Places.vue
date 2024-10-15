@@ -15,9 +15,9 @@
                 centered-slides
                 loop
                 class="w-full mb-4 article-swiper"
-                :autoplay="{ delay: 2500 }"
-                :modules="[Autoplay]"
             >
+                <!-- :autoplay="{ delay: 2500 }"
+                :modules="[Autoplay]" -->
                 <swiper-slide v-for="(article, index) in placesArticles" :key="index" v-slot="{ isActive }">
                     <article-item :item="article" info-classes="opacity-down" :class="{'small': isActive}" />
                 </swiper-slide>
@@ -30,7 +30,7 @@
 import { storeToRefs } from "pinia";
 import { useGeneralStore } from "@/stores/general";
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Autoplay } from 'swiper/modules';
+// import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import SectionTemplate from '@/components/SectionTemplate.vue';
 import ArticleItem from '@/components/ArticleItem.vue';
