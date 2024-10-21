@@ -1,6 +1,6 @@
 <template>
     <div class="flex items-center logo">
-        <div class="sm:text-base text-sm border border-[currentColor] rounded-xl leading-none px-1 logo-number">365</div>
+        <div class="sm:text-base text-sm border border-[currentColor] rounded-xl !leading-none px-1 logo-number">365</div>
         <div class="sm:text-2xl text-xl leading-none tracking-tighter -translate-y-0.5 logo-text ml-1">MAGAZINE</div>
     </div>
 </template>

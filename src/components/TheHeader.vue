@@ -232,7 +232,7 @@ watch(windowWidth, () => {
             color: #bbb;
             .logo-number {
                 border-radius: 46vw;
-                padding: 0px 28px 10px;
+                padding: 0px 28px 5px;
                 font-size: 4.5vw;
                 border-width: 0.3vw;
                 &::before {
